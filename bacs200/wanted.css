@@ -8,8 +8,8 @@ Header{
     border: solid 5px yellow;
     text-align: center;
     font-family: optima, cursive, sans-serif;
-    border-radius: 20px;
-    width:500px
+    border-radius: 30px;
+    width:300px
 }
 
 h1 *{
