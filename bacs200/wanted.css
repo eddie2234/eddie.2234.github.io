@@ -7,9 +7,10 @@ Header{
     background-color:white;
     border: solid 5px yellow;
     text-align: center;
+    padding: 10px;
     font-family: optima, cursive, sans-serif;
     border-radius: 30px;
-    width:300px
+    width:500px
 }
 
 h1 *{
