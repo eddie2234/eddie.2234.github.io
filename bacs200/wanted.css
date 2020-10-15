@@ -1,0 +1,53 @@
+body {
+   background-color:light red;
+}
+
+Header{
+    margin:auto;
+    background-color:dark red;
+    border: solid 5px yellow;
+    text-align: center;
+    font-family: optima, cursive, sans-serif;
+    border-radius: 30px;
+    width:500px
+}
+
+h1 *{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size:25px;
+}
+main{
+    margin:auto;
+    background-color:carmine color;
+    font-family:optima, cursive, sans-serif;
+    border-radius: 50px;
+    border:solid 5px yellow;
+    width: 800px;
+    font-size:20px;
+    color:whitesmoke;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+img{ margin-left:50px;
+}
+aside{
+    background-color:amaranth color;
+    border: solid 5px yellow;
+    float:right;
+    text-align:left;
+    padding:25px;
+    margin-right:50px;
+    color:black;
+    padding-bottom: 10px
+    }
+h2{
+    align-content:center;
+    margin-left:50px
+}
