@@ -1,60 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Skill 1</title>
-</head>
-    
-<body>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.button {
-  border-radius: 4px;
+.btn {
   background-color: #f4511e;
   border: none;
-  color: #FFFFFF;
+  color: white;
+  padding: 16px 32px;
   text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+.btn:hover {opacity: 1}
 </style>
 </head>
 <body>
 
-    <h1>Skill 1</h1>
- <h2>Below is an example of an animated button to use and can learn how to do so at <a href="https://www.w3schools.com/howto/howto_css_animate_buttons.asp> W3Schools</a>. </h2>
+ <h1>Skill 1</h1>
+<h2>Fading Buttons - "Fade in Effect"</h2>
 
-<button class="button"><span> Hover </span></button>
-    
+<button class="btn">Hover Over Me</button>
+
 </body>
 </html>
